@@ -124,7 +124,7 @@ public class ListaVehiculos_IGU extends javax.swing.JFrame {
             }
         });
 
-        logoBaic.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\Downloads\\logobaic (2).png")); // NOI18N
+        logoBaic.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logobaic (2).png"))); // NOI18N
 
         javax.swing.GroupLayout panelLogoLayout = new javax.swing.GroupLayout(panelLogo);
         panelLogo.setLayout(panelLogoLayout);

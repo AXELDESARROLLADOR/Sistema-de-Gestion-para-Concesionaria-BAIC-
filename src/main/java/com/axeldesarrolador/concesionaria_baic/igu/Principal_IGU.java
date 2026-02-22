@@ -87,7 +87,7 @@ public class Principal_IGU extends javax.swing.JFrame {
         panelLogo.setMaximumSize(new java.awt.Dimension(100, 100));
         panelLogo.setMinimumSize(new java.awt.Dimension(100, 100));
 
-        logoBaic.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\Downloads\\logobaic (2).png")); // NOI18N
+        logoBaic.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logobaic (2).png"))); // NOI18N
 
         javax.swing.GroupLayout panelLogoLayout = new javax.swing.GroupLayout(panelLogo);
         panelLogo.setLayout(panelLogoLayout);
@@ -241,7 +241,7 @@ public class Principal_IGU extends javax.swing.JFrame {
         panelPresentacion.setMaximumSize(new java.awt.Dimension(800, 494));
         panelPresentacion.setMinimumSize(new java.awt.Dimension(800, 494));
 
-        imgCamioneta.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\Downloads\\logoincio (1).jpg")); // NOI18N
+        imgCamioneta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logoincio (1).jpg"))); // NOI18N
 
         javax.swing.GroupLayout panelPresentacionLayout = new javax.swing.GroupLayout(panelPresentacion);
         panelPresentacion.setLayout(panelPresentacionLayout);
